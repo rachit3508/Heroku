@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <form action="/predict" method="post">
+            <input type="number" name="Pclass" placeholder="Pclass">
+            <input type="number" name="Sex" placeholder="Sex">
+            <input type="number" name="Age" placeholder="Age">
+            <input type="number" name="SibSp" placeholder="SibSp">
+            <input type="number" name="Parch" placeholder="Parch">
+            <input type="number" name="Fare" placeholder="Fare">
+            <input type="number" name="Embarked" placeholder="Embarked">
+            <button type="submit">Submit</button>
+
+            <h1>This person is {{value}}</h1>
+        </form>
+    </body>
+</html>
